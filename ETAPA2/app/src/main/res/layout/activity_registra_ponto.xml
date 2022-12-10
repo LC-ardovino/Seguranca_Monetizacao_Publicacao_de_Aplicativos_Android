@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistraPontoActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="410dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="100dp"
+        android:stretchColumns="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TableRow>
+
+            <TextView
+                android:padding="3dip"
+                android:text="@string/Dia" />
+
+            <TextView
+                android:id="@+id/campoData"
+                android:gravity="end"
+                android:padding="3dip"
+                android:text="@string/latitude_valor" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:padding="3dip"
+                android:text="@string/Hora" />
+
+            <TextView
+                android:id="@+id/campoHora"
+                android:gravity="end"
+                android:padding="3dip"
+                android:text="@string/longitude_valor" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:padding="3dip"
+                android:text="@string/latitude" />
+
+            <TextView
+                android:id="@+id/campoLatitude"
+                android:gravity="end"
+                android:padding="3dip"
+                android:text="@string/latitude_valor" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:padding="3dip"
+                android:text="@string/longitude" />
+
+            <TextView
+                android:id="@+id/campoLongitude"
+                android:gravity="end"
+                android:padding="3dip"
+                android:text="@string/longitude_valor" />
+        </TableRow>
+    </TableLayout>
+
+
+    <Button
+        android:id="@+id/buttonLer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="48dp"
+        android:text="Ler do Arquivo"
+        app:layout_constraintBottom_toTopOf="@+id/buttonLista"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.631"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <Button
+        android:id="@+id/buttonLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Listar Arquivos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.556" />
+
+    <TextView
+        android:id="@+id/leituraTV"
+        android:layout_width="394dp"
+        android:layout_height="128dp"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="28dp"
+        android:layout_weight="1"
+        android:singleLine="false"
+        android:text="Esperando ler ..."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+        app:layout_constraintVertical_bias="0.66" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="339dp"
+        android:layout_marginBottom="24dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/buttonSalvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="28dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_save_black_24dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

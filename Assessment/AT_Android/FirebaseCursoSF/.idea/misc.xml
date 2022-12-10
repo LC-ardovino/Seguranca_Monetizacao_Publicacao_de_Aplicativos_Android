@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/User/Documents/GitHub/Android/TP3_dudu/monetizacao_dudu/AT_Android/FirebaseCursoSF/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2985" />
+        <entry key="..\:/Users/User/Documents/GitHub/Android/TP3_dudu/monetizacao_dudu/AT_Android/FirebaseCursoSF/app/src/main/res/drawable/ic_camera_24.xml" value="0.2985" />
+        <entry key="..\:/Users/User/Documents/GitHub/Android/TP3_dudu/monetizacao_dudu/AT_Android/FirebaseCursoSF/app/src/main/res/drawable/ic_galeria_24.xml" value="0.2985" />
+        <entry key="..\:/Users/User/Documents/GitHub/Android/TP3_dudu/monetizacao_dudu/AT_Android/FirebaseCursoSF/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2985" />
+        <entry key="..\:/Users/User/Documents/GitHub/Android/TP3_dudu/monetizacao_dudu/AT_Android/FirebaseCursoSF/app/src/main/res/drawable/ic_progressbar_24.xml" value="0.2985" />
+        <entry key="..\:/Users/User/Documents/GitHub/Android/TP3_dudu/monetizacao_dudu/AT_Android/FirebaseCursoSF/app/src/main/res/layout/activity_abertura.xml" value="0.3482789855072464" />
+        <entry key="..\:/Users/User/Documents/GitHub/Android/TP3_dudu/monetizacao_dudu/AT_Android/FirebaseCursoSF/app/src/main/res/layout/activity_firestore_gravar_alterar_remover.xml" value="0.3482789855072464" />
+        <entry key="..\:/Users/User/Documents/GitHub/Android/TP3_dudu/monetizacao_dudu/AT_Android/FirebaseCursoSF/app/src/main/res/layout/activity_firestore_item_dados.xml" value="0.3482789855072464" />
+        <entry key="..\:/Users/User/Documents/GitHub/Android/TP3_dudu/monetizacao_dudu/AT_Android/FirebaseCursoSF/app/src/main/res/layout/activity_firestore_lista_categoria.xml" value="0.3482789855072464" />
+        <entry key="..\:/Users/User/Documents/GitHub/Android/TP3_dudu/monetizacao_dudu/AT_Android/FirebaseCursoSF/app/src/main/res/layout/activity_firestore_lista_item.xml" value="0.3482789855072464" />
+        <entry key="..\:/Users/User/Documents/GitHub/Android/TP3_dudu/monetizacao_dudu/AT_Android/FirebaseCursoSF/app/src/main/res/layout/activity_main.xml" value="0.3482789855072464" />
+        <entry key="..\:/Users/User/Documents/GitHub/Android/TP3_dudu/monetizacao_dudu/AT_Android/FirebaseCursoSF/app/src/main/res/layout/dialog_progress.xml" value="0.3482789855072464" />
+        <entry key="..\:/Users/User/Documents/GitHub/Android/TP3_dudu/monetizacao_dudu/AT_Android/FirebaseCursoSF/app/src/main/res/layout/item_lista_categoria_recyclerview.xml" value="0.3482789855072464" />
+        <entry key="..\:/Users/User/Documents/GitHub/Android/TP3_dudu/monetizacao_dudu/AT_Android/FirebaseCursoSF/app/src/main/res/layout/item_lista_item_recyclerview.xml" value="0.3482789855072464" />
+        <entry key="..\:/Users/User/Documents/GitHub/Android/TP3_dudu/monetizacao_dudu/AT_Android/FirebaseCursoSF/app/src/main/res/menu/menu_storage_upload.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/Documents/GitHub/Android/TP3_dudu/monetizacao_dudu/AT_Android/FirebaseCursoSF/app/src/main/res/menu/search.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

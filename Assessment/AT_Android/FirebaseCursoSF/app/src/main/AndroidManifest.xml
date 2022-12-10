@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jafapps.firebasecursosf">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".firestore_lista_item.FirestoreItemDadosActivity"></activity>
+        <activity android:name=".firestore_lista_item.FirestoreListaItemActivity" />
+        <activity android:name=".firestore_lista_categoria.FirestoreListaCategoriaActivity" />
+        <activity android:name=".ListaCategoriaActivity" />
+        <activity android:name=".firestore.FirestoreGravarAlterarRemoverActivity" />
+        <activity android:name=".firestore.FirestoreLerDadosActivity" />
+        <activity android:name=".storage.StorageUploadActivity" />
+        <activity android:name=".storage.StorageDownloadActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AberturaActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--No App upado para playstore pusemos o id do app no admob -->
+        <!-- ID do app: ca-app-pub-3279100574631077~7156211347 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.jafapps.firebasecursosf"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider" />
+        </provider>
+    </application>
+
+
+
+</manifest>

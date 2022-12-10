@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Etapa2</string>
+    <string name="registrar">Registrar Ponto</string>
+    <string name="ok">OK</string>
+    <string name="permission_camera_required">Preciso da camera para registrar o ponto</string>
+    <string name="permission_location_required">Preciso da localizacao para registrar o ponto</string>
+    <string name="permission_location_camera_required">Preciso da camera e da localizacao para registrar o ponto</string>
+    <string name="latitude">Latitude:</string>
+    <string name="latitude_valor">0</string>
+    <string name="longitude">Longitude:</string>
+    <string name="longitude_valor">0.0.0</string>
+    <string name="Dia">Dia:</string>
+    <string name="Hora">Hora:</string>
+    <string name="permission_write_required">Precisamos de permissão para escrever no disco</string>
+    <string name="permission_read_required">Preciso de permissão para ler do diretório compartilhado.</string>
+</resources>

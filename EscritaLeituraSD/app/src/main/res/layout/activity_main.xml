@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/layout"
+    >
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nomeTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome do arquivo"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textoTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entrada do arquivo" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/buttonSalvar"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar" />
+
+    <Button
+        android:id="@+id/buttonLer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ler do Arquivo"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/buttonLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listar Arquivos"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/leituraTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Esperando ler ..."
+        android:layout_weight="1"
+        android:singleLine="false"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "275901053730",
+    "project_id": "atinfnet-50072",
+    "storage_bucket": "atinfnet-50072.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275901053730:android:2c8f1b9c084dacb3c2037b",
+        "android_client_info": {
+          "package_name": "com.jafapps.firebasecursosf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275901053730-k0ph6flbiprghmfcag9qveutqfhsuhp9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jafapps.firebasecursosf",
+            "certificate_hash": "ac267b1a006ff8ba701ee4ad96e2b1f0a1243a65"
+          }
+        },
+        {
+          "client_id": "275901053730-k8p0h8lm9o6gop3i4bcb6veul9d8g46q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdQLPkt8lFyWC9zMqU-oc9xVWaTKxZKeQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275901053730-k8p0h8lm9o6gop3i4bcb6veul9d8g46q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

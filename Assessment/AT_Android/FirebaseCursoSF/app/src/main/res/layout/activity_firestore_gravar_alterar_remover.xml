@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".firestore.FirestoreGravarAlterarRemoverActivity"
+    android:background="@color/abobora_claro">
+
+
+
+    <EditText
+        android:id="@+id/editText_Firestore_GravarAlterarRemover_NomePasta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nome pasta"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/abobora_escuro"
+        android:textColorHint="@color/abobora_escuro"/>
+
+
+    <EditText
+        android:id="@+id/editText_Firestore_GravarAlterarRemover_GerenteNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nome"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/abobora_escuro"
+        android:textColorHint="@color/abobora_escuro"/>
+
+    <EditText
+        android:id="@+id/editText_Firestore_GravarAlterarRemover_GerenteIdade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="idade"
+        android:inputType="number"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/abobora_escuro"
+        android:textColorHint="@color/abobora_escuro"/>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button_Firestore_GravarAlterarRemover_Salvar"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Salvar"
+            android:textSize="16sp"
+            android:textAllCaps="false"/>
+
+
+        <Button
+            android:id="@+id/button_Firestore_GravarAlterarRemover_Alterar"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="Alterar"
+            android:textSize="16sp"
+            android:textAllCaps="false"/>
+
+
+
+        <Button
+            android:id="@+id/button_Firestore_GravarAlterarRemover_Remover"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="Remover"
+            android:textSize="16sp"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

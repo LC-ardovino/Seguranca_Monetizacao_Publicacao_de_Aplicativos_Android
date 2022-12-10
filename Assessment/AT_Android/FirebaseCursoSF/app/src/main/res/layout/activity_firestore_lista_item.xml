@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".firestore_lista_item.FirestoreListaItemActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="1dp"
+        app:cardUseCompatPadding="true"
+        android:textColor="@color/abobora_escuro"
+        android:textColorHint="@color/abobora_escuro">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+
+
+            <ImageView
+                android:id="@+id/imageView_Firestore_Item_LimparCampo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="end"
+                android:src="@drawable/limpar"/>
+
+            <EditText
+                android:id="@+id/editText_Firestore_Item_Nome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Nome"
+                android:textSize="20sp"
+                android:textColor="@color/abobora_escuro"
+                android:textColorHint="@color/abobora_escuro"/>
+
+
+            <EditText
+                android:id="@+id/editText_Firestore_Item_Descricao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Descricao"
+                android:textSize="20sp"
+                android:textColor="@color/abobora_escuro"
+                android:textColorHint="@color/abobora_escuro"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+
+                <Button
+                    android:id="@+id/button_Firestore_Item_Salvar"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+
+                    android:text="Salvar"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    style="@style/Widget.AppCompat.Button.Borderless"/>
+
+                <ImageView
+                    android:id="@+id/imageView_Firestore_Item_Galeria"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ic_galeria_24"/>
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_Firestore_ListaItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"/>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".firestore_lista_categoria.FirestoreListaCategoriaActivity">
+
+
+    <Button
+        android:id="@+id/button_Firestore_ListaCategoriaExibirMais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exibir Mais"
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_Firestore_ListaCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="547dp"
+        tools:listitem="@layout/item_lista_categoria_recyclerview" />
+
+</LinearLayout>
